@@ -9,7 +9,7 @@ rm PocketMine-MP.phar
 rm plugins  
 
 wget https://github.com/GraNXX/DOWNLOADS/releases/download/1%2C2/PocketMine-MP.zip
-unzip PocketMine-MP.phar
+unzip PocketMine-MP.zip
 rm PocketMine-MP.zip
 
 wget https://github.com/GraNXX/DOWNLOADS/releases/download/1%2C2/worlds.zip
