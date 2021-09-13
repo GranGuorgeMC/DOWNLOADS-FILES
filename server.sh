@@ -1,7 +1,7 @@
 mkdir mcpe
 cd mcpe
-apt-get update
-apt-get install gcc g++ make automake libtool autoconf bison
+sudo apt-get update
+sudo apt-get install gcc g++ make automake libtool autoconf bison
 wget -q -O - https://raw.githubusercontent.com/pmmp/php-build-scripts/master/installer.sh | bash -s - -r
 
 rm worlds
@@ -21,5 +21,5 @@ unzip plugins.zip
 rm plugins.zip
 
 echo "================================================================="
-echo "run .start.sh"
+echo "run ./start.sh"
 echo "================================================================="
