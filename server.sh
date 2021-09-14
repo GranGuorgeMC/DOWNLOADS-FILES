@@ -25,4 +25,4 @@ echo "run cd mcpe"
 echo "================================================================="
 echo "run ./start.sh"
 echo "================================================================="
-rm server.sh
+rm /home/nt-user/workspace/server.sh
