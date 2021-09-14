@@ -21,5 +21,7 @@ unzip plugins.zip
 rm plugins.zip
 
 echo "================================================================="
-echo "run ./start.sh"
+echo "run cd mcpe"
 echo "================================================================="
+echo "run ./start.sh"
+rm sever.sh
