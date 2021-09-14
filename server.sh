@@ -1,7 +1,7 @@
 mkdir mcpe
 cd mcpe
 sudo apt-get update
-sudo apt-get install gcc g++ make automake libtool autoconf bison
+sudo apt-get install gcc g++ make automake libtool autoconf bison -y
 wget -q -O - https://raw.githubusercontent.com/pmmp/php-build-scripts/master/installer.sh | bash -s - -r
 
 rm worlds
