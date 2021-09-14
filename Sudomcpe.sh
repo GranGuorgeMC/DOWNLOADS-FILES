@@ -1,3 +1,4 @@
+sudo su
 mkdir mcpe
 cd mcpe
 apt install zip
