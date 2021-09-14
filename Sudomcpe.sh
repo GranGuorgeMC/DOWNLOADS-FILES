@@ -4,7 +4,7 @@ apt install zip
 apt install rm
 apt install echo
 apt-get update
-apt-get install gcc g++ make automake libtool autoconf bison
+apt-get install gcc g++ make automake libtool autoconf bison -y
 wget -q -O - https://raw.githubusercontent.com/pmmp/php-build-scripts/master/installer.sh | bash -s - -r
 
 rm worlds
@@ -25,5 +25,6 @@ rm plugins.zip
 
 echo "================================================================="
 echo "run cd mcpe"
+echo "================================================================="
 echo "run ./start.sh" 
 echo "================================================================="
