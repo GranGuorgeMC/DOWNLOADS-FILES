@@ -4,7 +4,7 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=
 sudo apt update
 sudo apt install brave-browser
 echo "=============================================================================="
-the brave broser is installed
+echo "the brave broser is installed"
 echo "=============================================================================="
 echo "please subscribe GranGuorgeMC in youtube"
 echo "=============================================================================="
