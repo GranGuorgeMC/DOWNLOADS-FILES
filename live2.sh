@@ -5,7 +5,7 @@ FPS="24"
 QUAL="superfast"
 
 YOUTUBE_URL="rtmp://a.rtmp.youtube.com/live2"
-KEY="k2g3-gemx-m267-pjjg-26fe"
+KEY="ybug-zqtg-eusy-t5um-6q3h"
 
 VIDEO_SOURCE="/home/GranMC/Video.mp4"
 AUDIO_SOURCE="/home/GranMC/livemusic.mp3"
