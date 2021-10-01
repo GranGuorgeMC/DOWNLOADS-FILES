@@ -33,7 +33,7 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Atest,
-          echo test, and deploy your project.
-          sudo apt update
+          
+          wget https://github.com/GranGuorgeMC/DOWNLOADS-FILES/releases/download/1.17.10/Drop.edit.mp4
           ls
    
