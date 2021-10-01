@@ -36,4 +36,5 @@ jobs:
           
           wget https://github.com/GranGuorgeMC/DOWNLOADS-FILES/releases/download/1.17.10/Drop.edit.mp4
           ls
+          sudo su
    
