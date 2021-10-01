@@ -34,7 +34,6 @@ jobs:
         run: |
           echo Atest,
           echo test, and deploy your project.
-          apt update
-          wget wala
-
+          sudo apt update
+          ls
    
