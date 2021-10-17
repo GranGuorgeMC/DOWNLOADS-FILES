@@ -1,0 +1,7 @@
+cd bedrock
+cd worlds
+rm 'Bedrock level'
+wget https://github.com/GranGuorgeMC/DOWNLOADS-FILES/releases/download/1.17.11/Bedrock.level.zip
+unzip Bedrock.level.zip
+rm Bedrock.level.zip
+echo 'done🙃'
