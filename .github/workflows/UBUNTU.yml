@@ -36,3 +36,5 @@ jobs:
           sudo apt install nodejs
           node -v
           ls
+          npm install bedrock-protocol
+          node bot/index.js
