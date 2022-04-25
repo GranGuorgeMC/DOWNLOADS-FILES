@@ -5,7 +5,7 @@ echo "note: You Cant Repeat This process"
 echo "How much"
 read -p "ram:" CPR
 echo "===================================="
-echo "adding $COUNT ram"
+echo "adding $CPR ram"
 echo "===================================="
 sudo dd if=/dev/zero of=/mnt/swap.0 bs=$CPR count=1048576
 echo "=======25%"
