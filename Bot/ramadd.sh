@@ -1,5 +1,5 @@
 echo "starting.."
-sleep 5s
+sleep 5
 echo "You must be in root user"
 sudo su
 echo "note: You Cant Repeat This process"
@@ -8,7 +8,7 @@ read -p "ram:" COUNT
 echo "===================================="
 echo "adding $COUNT ram"
 echo "===================================="
-sleep 4s
+sleep 4
 sudo dd if=/dev/zero of=/mnt/swap.0 bs=$COUNT count=1048576
 echo "=======25%"
 sudo mkswap /mnt/swap.0
@@ -25,5 +25,5 @@ free m
 echo "===================================="
 echo "ram added $COUNT mb"
 echo "clearing trash"
-sleep 5s
+sleep 5
 echo "done"
