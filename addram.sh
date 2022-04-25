@@ -1,6 +1,5 @@
 echo "starting.."
 echo "You must be in root user"
-sudo su
 echo "note: You Cant Repeat This process"
 echo "How much"
 read -p "ram: " CRP
