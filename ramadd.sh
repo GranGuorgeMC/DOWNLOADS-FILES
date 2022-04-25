@@ -3,11 +3,11 @@ echo "You must be in root user"
 sudo su
 echo "note: You Cant Repeat This process"
 echo "How much"
-read -p "ram:" COUNT
+read -p "ram:" CPR
 echo "===================================="
 echo "adding $COUNT ram"
 echo "===================================="
-sudo dd if=/dev/zero of=/mnt/swap.0 bs=$COUNT count=1048576
+sudo dd if=/dev/zero of=/mnt/swap.0 bs=$CPR count=1048576
 echo "=======25%"
 sudo mkswap /mnt/swap.0
 echo "=============50%"
@@ -21,6 +21,6 @@ echo "=======================100%"
 echo "===================================="
 free m
 echo "===================================="
-echo "ram added $COUNT mb"
+echo "ram added $CPR mb"
 echo "clearing trash"
 echo "done"
