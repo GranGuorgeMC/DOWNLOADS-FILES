@@ -3,9 +3,9 @@ echo "You must be in root user"
 sudo su
 echo "note: You Cant Repeat This process"
 echo "How much"
-read -p "ram:" CPR
+read -p "ram: " CRP
 echo "===================================="
-echo "adding $CPR ram"
+echo "adding $CRP ram"
 echo "===================================="
 sudo dd if=/dev/zero of=/mnt/swap.0 bs=$CPR count=1048576
 echo "=======25%"
@@ -21,6 +21,6 @@ echo "=======================100%"
 echo "===================================="
 free m
 echo "===================================="
-echo "ram added $CPR mb"
+echo "ram added $CRP mb"
 echo "clearing trash"
 echo "done"
